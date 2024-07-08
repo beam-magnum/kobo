@@ -32,6 +32,15 @@
   <% } %>
 </section>
 
+<!-- <% if (site.data.metadata) { %>
+<section id="metadata">
+  <span class="h1"><%= __('index.metadata') %></a></span>
+  <ul class="matadata-bio">
+    <%= site.data.metadata.name %>: <%- markdown(site.data.metadata.desc) %>
+  </ul>
+</section>
+<% } %> -->
+
 <section id="writing">
   <span class="h1"><a href="<%- url_for(theme.nav.articles) %>"><%= __('index.articles') %></a></span>
   <% if (theme.tags_overview && site.tags.length) { %>
@@ -59,6 +68,19 @@
     <%- partial('_partial/pagination') %>
   <% } %>
 </section>
+
+<% if (site.data.news) { %>
+  <section id="news">
+    <span class="h1"><%= __('index.most_recent') %></a></span>
+    <ul class="news-list">
+      <% for(var obj in site.data.news){ %>
+        <li class="news-item">
+          <p class="news-time"><%= site.data.news[obj].time %></p>: <%- markdown(site.data.news[obj].desc) %>
+        </li>
+      <% } %>
+    </ul>
+  </section>
+  <% } %>
 
 <% if (site.data.projects) { %>
 <section id="projects">

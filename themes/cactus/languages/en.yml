@@ -21,8 +21,9 @@ index:
   enum_and: and
   articles: Writing
   projects: Projects
+  metadata: Introduction
   topics: Topics
-  most_recent: Most recent
+  most_recent: News
 
 post:
   desktop:
