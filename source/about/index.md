@@ -21,7 +21,7 @@ I am looking for intership with respect to cryptography, MPC, and blockchain. I 
         <td>2023 - Pres.</td>
     </tr>
     <tr>
-        <td><b>Bachelot of Engineering in Information Security</b>, Beihang University</td>
+        <td><b>Bachelor of Engineering in Information Security</b>, Beihang University</td>
         <td>2018 - 2022</td>
     </tr>
     <tr>
@@ -31,12 +31,19 @@ I am looking for intership with respect to cryptography, MPC, and blockchain. I 
 
 ---
 
+## What I've Coded
+
+tbd.
+
+---
+
 ## Contact
 
 <table>
     <tr>
         <td><b>E-mail</b></td>
         <td>ay dot hu at stu dot pku dot edu dot cn</td>
+        <td>gingerbeam at tssn dot ac dot cn</td>
     </tr>
     <tr>
         <td><b>Online</b></td>
@@ -48,7 +55,7 @@ I am looking for intership with respect to cryptography, MPC, and blockchain. I 
 
 ## About the picture
 
-![無負今日](\about\images\logo.png)
+![無負今日](\images\logo.png)
 
 This is a piece of calligraphy created by Liang Qichao (梁啓超), one of the pioneers who inspired the political reformation of modern China. The four characters (from right to left) pronounce as wú2 fù4 jīn1 rì4. It can be translated as "Do not waste today" and is from an article Liang Qichao wrote to young people in China under the invasion of the Eight-Nation Alliance:
 

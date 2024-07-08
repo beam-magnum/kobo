@@ -32,14 +32,35 @@
   <% } %>
 </section>
 
-<!-- <% if (site.data.metadata) { %>
+<% if (site.data.intro) { %>
 <section id="metadata">
-  <span class="h1"><%= __('index.metadata') %></a></span>
-  <ul class="matadata-bio">
-    <%= site.data.metadata.name %>: <%- markdown(site.data.metadata.desc) %>
-  </ul>
+  <!-- <ul> -->
+    <p>
+      <img src="<%= site.data.intro.pic0 %>" alt="tkk0" width="200" height="200">
+      <img src="<%= site.data.intro.pic1 %>" alt="tkk1" width="200" height="200">
+      <img src="<%= site.data.intro.pic2 %>" alt="tkk2" width="200" height="200"><br/>
+    </p>
+    <li><%= site.data.intro.name %></li>
+    <li><%= site.data.intro.language %></li>
+    <li><%= site.data.intro.pron %></li>
+    <p>
+      <%- markdown(site.data.intro.ps) %>
+    </p>
 </section>
-<% } %> -->
+<% } %>
+
+<% if (site.data.news) { %>
+  <section id="news">
+    <span class="h1"><%= __('index.most_recent') %></a></span>
+    <ul class="news-list">
+      <% for(var obj in site.data.news){ %>
+        <li class="news-item">
+          <p class="news-time"><%= site.data.news[obj].time %></p>: <%- markdown(site.data.news[obj].desc) %>
+        </li>
+      <% } %>
+    </ul>
+  </section>
+<% } %>
 
 <section id="writing">
   <span class="h1"><a href="<%- url_for(theme.nav.articles) %>"><%= __('index.articles') %></a></span>
@@ -69,19 +90,6 @@
   <% } %>
 </section>
 
-<% if (site.data.news) { %>
-  <section id="news">
-    <span class="h1"><%= __('index.most_recent') %></a></span>
-    <ul class="news-list">
-      <% for(var obj in site.data.news){ %>
-        <li class="news-item">
-          <p class="news-time"><%= site.data.news[obj].time %></p>: <%- markdown(site.data.news[obj].desc) %>
-        </li>
-      <% } %>
-    </ul>
-  </section>
-  <% } %>
-
 <!-- <% if (site.data.projects) { %>
 <section id="projects">
   <span class="h1"><a href="<%- url_for(theme.projects_url) %>"><%= __('index.projects') %></a></span>
@@ -94,3 +102,11 @@
   </ul>
 </section>
 <% } %> -->
+
+<section id="game-uid">
+  <ul class="news-list">
+    Houkai Gakuen 2 UID: 13186735<br/>
+    Genshin Impact UID: 241429701
+  </ul>
+
+</section>
