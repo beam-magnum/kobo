@@ -135,7 +135,8 @@ favicon:
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: darkpro
+# colorscheme: light
+colorscheme: default
 
 # Maximal width of the page in rem units.
 page_width: 48
@@ -162,7 +163,8 @@ open_graph:
 
 # Enable MathJax support for Latex
 mathjax:
-  enabled: false
+  enabled: true
+  # enabled: false
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:

@@ -31,7 +31,8 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+# new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -40,7 +41,12 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+
+post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
+
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
@@ -98,6 +104,19 @@ ignore:
 ## Themes: https://hexo.io/themes/
 # theme: landscape
 theme: cactus
+
+math:
+  # katex:
+  #   css: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
+  #   options:
+  #     throwOnError: false
+  mathjax:
+    css: 'https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css'
+    options:
+      conversion:
+        display: false
+      tex:
+      svg:
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
