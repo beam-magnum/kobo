@@ -31,12 +31,12 @@ social_links:
   -
     icon: github
     link: http://github.com/gingerbeam
-  # -
-  #   icon: twitter
-  #   link: /
   -
     icon: zhihu
-    link: /
+    link: https://www.zhihu.com/people/zhnmslofficial
+  -
+    icon: keybase
+    link: https://keybase.io/gingerbeam
   # -
   #   icon: mail
   #   link: mailto:name@email.com
