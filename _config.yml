@@ -105,18 +105,11 @@ ignore:
 # theme: landscape
 theme: cactus
 
-math:
-  # katex:
-  #   css: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
-  #   options:
-  #     throwOnError: false
-  mathjax:
-    css: 'https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css'
-    options:
-      conversion:
-        display: false
-      tex:
-      svg:
+markdown_it_plus:
+  plugins:
+    - plugin:
+      name: '@andatoshiki/markdown-it-katex'
+      enable: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

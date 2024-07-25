@@ -1,6 +1,7 @@
 ---
 title: Hello World
 date: 2010-07-28 11:50:50
+math: true
 tags: test
 ---
 

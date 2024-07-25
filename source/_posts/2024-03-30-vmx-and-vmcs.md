@@ -1,6 +1,7 @@
 ---
 title: 「virt」Intel VT-x虚拟化（vmx、vmcs）
 date: 2024-03-30 23:40:00
+math: true
 tags: 
 - os
 - virtualization
