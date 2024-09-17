@@ -9,7 +9,7 @@ Before, I obtained my Bachelor's degree in Information Security from [Beihang Un
 
 I am also interested in novel technologies in blockchain. I am with the [PKU Blockchain Association](https://x.com/PKUBlockchain), with whom I attended the ETH Beijing Hackthon and got a third prize.
 
-I am looking for intership with respect to cryptography, MPC, and blockchain. I am also searching for good opportunities to do a PhD in theotrical computer science.
+~~I am looking for intership with respect to cryptography, MPC, and blockchain.~~ I am now working at [Ant Group](https://www.antgroup.com/) as a research intern, which will last for at least 6 month, i.e. till March 2025. I am also searching for good opportunities to do a PhD in theotrical computer science, math, and cryptography.
 
 ---
 
@@ -17,7 +17,7 @@ I am looking for intership with respect to cryptography, MPC, and blockchain. I 
 
 <table>
     <tr>
-        <td><b>Master of Engineering in Electronic and Information Engineering</b>, Peking University</td>
+        <td><b>Master of Electronic and Information Engineering</b>, Peking University</td>
         <td>2023 - Pres.</td>
     </tr>
     <tr>
@@ -45,7 +45,8 @@ tbd.
         <td>
         <p>
         ay dot hu at stu dot pku dot edu dot cn<br/>
-        gingerbeam at tssn dot ac dot cn
+        gingerbeam at tssn dot ac dot cn<br/>
+        hu dot ay at outlook dot com
         </p>
         </td>
     </tr>
@@ -53,7 +54,7 @@ tbd.
         <td><b>Online</b></td>
         <td>tbd.</td>
     </tr> -->
-    <tr>
+    <!-- <tr>
         <td><b>My PGP Public Key</b></td>
         <td>
             -----BEGIN PGP PUBLIC KEY BLOCK-----<br/>
@@ -155,16 +156,16 @@ tbd.
             =8wIk<br/>
             -----END PGP PUBLIC KEY BLOCK-----
         </td>
-    </tr>
+    </tr> -->
 </table>
 
 ---
 
 ## About the picture
 
-![無負今日](\images\logo.png)
+![無負今日](../images/logo.png)
 
-This is a piece of calligraphy created by Liang Qichao (梁啓超), one of the pioneers who inspired the political reformation of modern China. The four characters (from right to left) pronounce as wú2 fù4 jīn1 rì4. It can be translated as "Do not waste today" and is from an article Liang Qichao wrote to young people in China under the invasion of the Eight-Nation Alliance:
+This is a piece of calligraphy created by Liang Qichao (梁啓超), one of the pioneers who inspired the political reformation of modern China. The four characters (from right to left) pronounce as wú2 fù4 jīn1 rì4. It can be translated as "Do not waste today" and is from an article Liang Qichao wrote to young people in China during the invasion of the Eight-Nation Alliance:
 
 > 昨日已逝，逝者如斯，明日未至，前景何知，唯今日握在诸君手中，尤应呵护之，珍爱之，记挂之，驾驭之。
 
